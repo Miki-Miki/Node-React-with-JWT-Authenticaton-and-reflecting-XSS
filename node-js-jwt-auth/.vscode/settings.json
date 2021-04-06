@@ -1,0 +1,6 @@
+{
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggestFontSize": 15,
+    "editor.acceptSuggestionOnEnter": "off"
+}

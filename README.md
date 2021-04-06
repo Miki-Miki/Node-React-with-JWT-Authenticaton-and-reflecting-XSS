@@ -1,0 +1,36 @@
+# Node/React, JSON Web Token (JWT) Authentication with reflected XSS
+ 
+This is a small web app designed to show my understanding of Node.js and React.
+
+## Setup:  
+ - log into your: 'mysql' `mysql -u root -p`
+ - create the database `testdb` needed: `create database testdb;`
+ - in `./node-js-jwt-auth/app/config/db.config.js` enter your `mysql` root password
+ - run the server with:
+```
+cd ./node-js-jwt-auth
+npm install express sequelize mysql2 body-parser cors jsonwebtoken bcryptjs --save (if necessary)
+node server.js
+```
+ - run the react appliaction:
+```
+cd ./react-frontend-jwt/react-jwt-auth
+npm start
+```
+
+
+## Basic API:
+The web app has a simple api for signing up (creating) a user, and logging them in whilst
+giving logged-in users a JWT token set to expire in 90 seconds after login.
+
+## Reflecting XSS:
+On the user profile board there are two input fields. 
+The first one labeled 'no xss' will just reflect the input value onto the html of the site.
+The second one labeled 'reflecting xss' will pass the input value through the infamous javaScript eval() function,
+and thus run 'alert(1)' for example
+
+## Postman:
+![image](https://user-images.githubusercontent.com/45371385/113756920-48b59f80-9712-11eb-8e5d-5d02cdc51414.png)
+![image](https://user-images.githubusercontent.com/45371385/113756950-5408cb00-9712-11eb-92e2-8ef71b021efd.png)
+![image](https://user-images.githubusercontent.com/45371385/113757064-7864a780-9712-11eb-969f-64f33e57342b.png)
+
