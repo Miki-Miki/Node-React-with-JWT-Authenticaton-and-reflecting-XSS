@@ -14,7 +14,7 @@ node server.js
 ```
  - run the react appliaction:
 ```
-cd ./react-frontend-jwt/react-jwt-auth
+cd ./react-jwt-auth
 npm start
 ```
 
