@@ -16,7 +16,7 @@ const required = value => {
     }
 }
 
-// the Login component handles user login
+// the Login component defines the user login interface
 export default class Login extends Component {
     constructor(props) {
         super(props)
