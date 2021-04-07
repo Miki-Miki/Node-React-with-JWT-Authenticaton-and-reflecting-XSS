@@ -29,7 +29,12 @@ The second one labeled 'reflecting xss' will pass the input value through the in
 and thus run 'alert(1)' for example
 
 ## Postman:
+#### SignUp
 ![image](https://user-images.githubusercontent.com/45371385/113756920-48b59f80-9712-11eb-8e5d-5d02cdc51414.png)
+
+#### SignIn
 ![image](https://user-images.githubusercontent.com/45371385/113756950-5408cb00-9712-11eb-92e2-8ef71b021efd.png)
+
+#### Access Authorized Content
 ![image](https://user-images.githubusercontent.com/45371385/113757064-7864a780-9712-11eb-969f-64f33e57342b.png)
 
