@@ -1,5 +1,5 @@
-// this module is concerned with storing user information;
-// containing the access token
+// this module is concerned with authenticating user information;
+// checking their access token
 export default function authHeader() {
     const user = JSON.parse(localStorage.getItem('user'))
 
