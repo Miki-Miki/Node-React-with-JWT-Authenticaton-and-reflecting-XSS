@@ -1,4 +1,4 @@
-# Node/React, JSON Web Token (JWT) Authentication with reflected XSS
+# Node.js/React, JSON Web Token (JWT) Authentication with reflected XSS
  
 This is a small web app designed to show my understanding of Node.js and React.
 
