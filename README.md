@@ -9,7 +9,7 @@ giving logged-in users a JWT token set to expire in 90 seconds after login.
 The DBMS used for this example is MySQL
 
 ## Setup:  
- - log into your: 'mysql' `mysql -u root[username] -p` or `mysql[username]  -u root`
+ - log into your: 'mysql' `mysql -u [username] -p` or `mysql -u [username]`
  - create the database `testdb` needed: `create database testdb;`
  - in `./node-js-jwt-auth/app/config/db.config.js` enter your `mysql` root password
  - run the server with:
