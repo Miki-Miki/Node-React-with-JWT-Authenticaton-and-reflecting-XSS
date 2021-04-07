@@ -16,7 +16,7 @@ node server.js
 cd ./react-jwt-auth
 npm start
 ```
-
+> the react application is configured to run on port 8081
 
 ## Basic API:
 The web app has a simple api for signing up (creating) a user, and logging them in whilst
