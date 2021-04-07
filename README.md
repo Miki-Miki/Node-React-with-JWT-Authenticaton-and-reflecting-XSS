@@ -2,6 +2,12 @@
  
 This is a small web app designed to show my understanding of Node.js and React.
 
+## Basic API:
+The web app has a simple api for signing up (creating) a user, and logging them in whilst
+giving logged-in users a JWT token set to expire in 90 seconds after login.
+
+The DBMS used for this example is MySQL
+
 ## Setup:  
  - log into your: 'mysql' `mysql -u root -p`
  - create the database `testdb` needed: `create database testdb;`
@@ -18,11 +24,6 @@ npm start
 ```
 > the react application is configured to run on port 8081
 
-## Basic API:
-The web app has a simple api for signing up (creating) a user, and logging them in whilst
-giving logged-in users a JWT token set to expire in 90 seconds after login.
-
-The DBMS used for this example is MySQL
 
 ## Reflecting XSS:
 On the user profile board there are two input fields. 
