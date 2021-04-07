@@ -9,7 +9,6 @@ This is a small web app designed to show my understanding of Node.js and React.
  - run the server with:
 ```
 cd ./node-js-jwt-auth
-npm install express sequelize mysql2 body-parser cors jsonwebtoken bcryptjs --save (if necessary)
 node server.js
 ```
  - run the react appliaction:
