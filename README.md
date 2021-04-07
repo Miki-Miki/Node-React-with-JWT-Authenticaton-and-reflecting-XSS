@@ -22,6 +22,8 @@ npm start
 The web app has a simple api for signing up (creating) a user, and logging them in whilst
 giving logged-in users a JWT token set to expire in 90 seconds after login.
 
+The DBMS used for this example is MySQL
+
 ## Reflecting XSS:
 On the user profile board there are two input fields. 
 The first one labeled 'no xss' will just reflect the input value onto the html of the site.
